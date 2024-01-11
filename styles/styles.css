@@ -1,0 +1,357 @@
+/* Banner section style */
+body{
+    width: 1300px;
+    margin: auto;
+    background-color: #FFF;
+    margin-top: 50px;
+}
+.banner{
+    /* background-image: url("../resources/Banner\ Image.png"); */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url("../resources/Banner\ Image.png");
+    text-align: center;
+    color: white;
+    height: 550px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+.banner-content{
+    width: 500px;
+     position: absolute;
+     top: 20%;
+     left: 30%;
+}
+.banner-content h1 {
+    font-size: 70px;
+    margin-top: -30px;
+    color: #f4e5e5;
+    
+}
+.banner-content h3 {
+    font-size: 40px;
+    padding-left: 50px;
+    color: #f4e5e5;
+}
+.banner-content span{
+    padding-left: 50px;
+    font-size: 70px;
+    color: #f4e5e5;;
+}
+
+/* Discount section style */
+
+.discount{
+    text-align: center;
+    margin-top: -60px;
+}
+
+.discount-title{
+    
+    width: 500px;
+    margin: auto;
+}
+
+.discount h1{
+    font-size: 88px;
+    color: red;
+}
+.discount h6{
+   font-size: 25px; 
+   color: #F00;
+   margin-top: -40px;
+   
+}
+.discount h2{
+    color:#070211;
+    font-size: 48px;
+    margin-top: -50px;
+}
+
+
+/* Time and date section styles */
+.place-time{
+    text-align: center;
+    background-color: #fae8e8;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+.place-time b{
+    font-size: 25px;
+    color: #F00;
+}
+.place-time h3{
+     font-size: 22px;
+}
+.place-time button{
+    background-color: #F00;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+/* coming soon section styles */
+
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    align-items: center;
+    background-color: #fae8e8;
+    padding: 100px 50px;
+    
+    
+}
+.coming-soon h2{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    margin-top: -22px;
+
+}
+.rounded-img{
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 500px;
+}
+
+.coming-soon-right img{
+    margin-top: 20px;
+}
+span{
+    color: #F00;
+    font-size: 25px;
+}
+.coming-soon h4{
+    font-size: 24px;
+    color: #F00;
+    
+}
+.coming-soon p{
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: bold;
+    margin-top: -22px;
+}
+
+/* holidays section styles */
+.holidays{
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.holidays-contents h1{
+   font-size: 45px;
+   margin-top: -20px;
+}
+.holidays-contents h4{
+    font-weight: bold;
+    font-size: 21px;
+}
+.holidays-contents p{
+    font-weight: bold;
+    margin-top: -20px;
+    color: rgba(7, 2, 17, 0.60);
+}
+.holidays-contents h1 span{
+    color: #F00;
+    font-size: 45px;
+}
+.holidays-img{
+    width: 1200px;
+    height: 700px;
+}
+
+.gift-box{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 30;
+}
+.circle-img{
+    position: absolute;
+    top: 320px;
+    right: 260px;
+    z-index: 10;
+}
+.girl-img{
+    position: absolute;
+    right: -20px;
+    bottom: 220px;
+}
+.red-img{
+    position: absolute;
+    bottom: 0 ;
+    left: 0;
+}
+
+/* party section styles */
+
+.party{
+    background-image: url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 1300px;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.party img{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+
+}
+.party-content{
+    width: 400px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.party-content h1{
+   font-size: 60px;
+   color: #FFF;
+
+}
+.party p{
+    color: rgba(255, 255, 255, 0.80);;
+    
+}
+.party button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.portfolio-content h4{
+    color: #F00;
+    font-size: 24px;
+}
+.portfolio-content h1{
+    color: #070211;
+    margin-top: -15px;
+    font-size: 35px;
+    
+}
+.portfolio-content  p{
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: -10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.portfolio-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+.portfolio-img img:hover{
+    background-color: rgb(36, 50, 50);
+    width: 450px;
+}
+
+/* subscribe section styles */
+
+.subscribe{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-color:  rgba(255, 0, 0, 0.05);
+    padding: 40px;
+}
+.subscribe input{
+    border: none;
+    padding:15px 35px ;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius:25px;
+    background-color:#FFF
+}
+.subscribe button{
+    padding: 15px 22px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    background-color: #F00;
+    color: white;
+    border: none;
+}
+.subscribe p{
+     color: rgba(7, 2, 17, 0.60);
+     margin-top: -20px;
+}
+.subscribe h1{
+    color:  #070211;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+/* Footer section styles */
+footer{
+    background-color: #070211;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.call{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.call img{
+    width: 30px;
+    height: 30px;
+}
+.image{
+    margin-left: 25px;
+}
+
+.site{
+    padding-left: 0px;
+}
+.phone{
+    padding-left: 8px;
+    
+    
+}
+.call b{
+    font-size: 22px;
+}
+.contact h6{
+    font-size: 24px;
+    color: #FFF;
+}
+.line{
+    color: rgb(173, 28, 28);
+    margin: 20px 80px;
+}
+.social{
+   text-align: center;
+   margin: 50px;
+   ;
+}
+.social img{
+    margin-right: 20px;
+}
+.f-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.f-footer button{
+    padding: 10px 30px;
+    border: none;
+    
+}
