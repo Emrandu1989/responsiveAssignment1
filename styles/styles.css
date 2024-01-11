@@ -228,6 +228,9 @@ span{
     color: white;
     padding: 10px;
 }
+
+/* portfolio section start */
+
 .portfolio-content h4{
     color: #F00;
     font-size: 24px;
@@ -420,12 +423,152 @@ footer{
     /* party section */
 
     .party{
-       
+        
         height: 550px;
         width: 576px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .party img{
+        width: 250px;
+       right: 10px;
+        top: 100px;
+    }
+    .party-content{
+        width: 300px;
+        position: absolute;
+        left: 10px;
+        top: 100px;
+    }
+    .party-content h1{
+       font-size: 40px;
+       color: #FFF;
+    
+    }
+   
+    /* coming soon section */
+  .coming-soon{
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .rounded-img{
+    margin-right: 50px;
+  }
+
+  /* holidays section */
+
+  .holidays{
+    margin-bottom: 30px;
+    margin-top: -70px;
+}
+.holidays-contents h1{
+   font-size: 35px;
+   margin-top: -30px;
+}
+.holidays-contents h4{
+    font-weight: bold;
+    font-size: 21px;
+}
+.holidays-contents p{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.holidays-img{
+    width:576px;
+    height: 500px;
+}
+
+.gift-box{
+    width: 500px;
+    left: -130px;
+    bottom: 50px;
+    z-index: 30;
+}
+.circle-img{
+    width: 200px;
+    top: 200px;
+    right: 170px;
+    z-index: 10;
+}
+.girl-img{
+    width: 300px;
+}
+
+/* portfolio section */
+
+.portfolio-content{
+    text-align: center;
+}
+.portfolio-content h1{
+    margin-top: -25px;
+    font-size: 30px;
+    
+}
+.portfolio-content  p{
+    margin-top: -20px;
+    
+}
+
+.portfolio-img{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 10%;
+
+}
+
+/* Footer section styles */
+
+.contact{
+    padding: 10px 10px;
+    
+}
+.web{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+.image{
+    margin-left: 5px;
+}
+
+.site{
+    padding-left: 0px;
+}
+.phone{
+    padding-left: 8px;
+}
+#call{
+    margin-top: -30px;
+}
+.call{
+    margin-top: 20px;
+   
+}
+.call b{
+    font-size: 20px;
+}
+.contact h6{
+    font-size: 20px;
+    
+}
+
+.social{
+   margin: 20px;
+   ;
+}
+.social img{
+    width: 40px;
+    margin-right: 10px;
+}
+.f-footer{
+    flex-direction: column;
+    padding: 5px 5px;
+}
+
+
 
 
     
