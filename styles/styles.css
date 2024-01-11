@@ -191,7 +191,7 @@ span{
 /* party section styles */
 
 .party{
-    background-image: url("/resources/Vectorrr.png");
+    background-image: url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     height: 550px;
     width: 1300px;
@@ -353,5 +353,80 @@ footer{
 .f-footer button{
     padding: 10px 30px;
     border: none;
+    
+}
+
+/* Responsive LayOut */
+
+/* for mobile devices */
+
+@media screen and (max-width:576px) {
+    body{
+        width: 576px;
+        margin: auto;
+        margin-top: 50px;
+    }
+   
+    .banner{
+        background-size: 576px 400px;
+       
+        padding-bottom: 200px;
+        
+        
+        
+    }
+    .banner-content{
+        width: 300px;
+         top: 0%;
+         left: 8%;
+        
+    }
+    .banner-content h1 {
+        font-size: 40px;   
+    }
+    .banner-content h3 {
+        font-size: 40px;
+        padding-left: 5px;
+    }
+    .banner-content span{
+        padding-left: 5px;
+        font-size: 40px;
+    }
+
+    /* discount section */
+
+    .discount{
+        margin-top: -350px;
+    }
+    
+    .discount img{
+        width: 500px;
+    }
+    .discount h1{
+        font-size: 58px;
+        
+    }
+    .discount h6{
+       font-size: 20px; 
+       margin-top: -40px;
+       
+    }
+    .discount h2{
+        font-size: 28px;
+        
+    }
+    
+
+    /* party section */
+
+    .party{
+       
+        height: 550px;
+        width: 576px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
     
 }
